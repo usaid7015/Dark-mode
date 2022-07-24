@@ -319,6 +319,11 @@ li:hover:after{
     padding-top: 130px;
 }
 
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .owl-dot{
     height: 15px;
     width: 45px;
@@ -326,6 +331,12 @@ li:hover:after{
     outline: none;
     cursor: pointer;
     border-radius: 24px;
+    margin: 0px 5px;
+    transition: all 0.3s ease;
+}
+
+.owl-dot:hover{
+    background-color: var(--blue) !important;
 }
 
 @media (max-width: 1024px){
