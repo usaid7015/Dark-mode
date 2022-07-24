@@ -10,7 +10,7 @@ $('.product').owlCarousel({
     nav: false,
     autoplay: true,
     stagePadding: 20,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 4000,
     autoplayHoverPause: true,
     responsive:{
         0:{
